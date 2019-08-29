@@ -15,4 +15,10 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = 'AppLovinMediationGoogleAdapter.framework', 'AppLovinMediationFacebookAdapter.framework'
   spec.requires_arc = true
 
+  spec.dependency "AppLovinSDK", "6.8.0"
+  spec.dependency "AppLovinMediationAdColonyAdapter", "3.3.8.1"
+  spec.dependency "AppLovinMediationIronSourceAdapter", "6.8.4.0.2"
+  spec.dependency "AppLovinMediationTapjoyAdapter", "12.3.1.0"
+  spec.dependency "AppLovinMediationUnityAdsAdapter", "3.1.0.1"
+  spec.dependency "AppLovinMediationVungleAdapter", "6.3.2.3"
 end
