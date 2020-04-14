@@ -20,13 +20,13 @@ echo "\n🔥输入的是：$verNum"
 # 使用sed进行替换 把1-5行的 数字.数字.数字 替换为1.4.3。保存到临时文件。
 #sed "1,5 s/[0-9].[0-9].[0-9]/$verNum/" ShellTest.podspec > Temp.podspec
 # 可以不指定行号 而是去匹配标记行，在行尾的注释中做标记
-sed "/Mark/ s/[0-9].[0-9].[0-9]/$verNum/" $PodName.podspec > Temp.podspec
+#sed "/Mark/ s/[0-9].[0-9].[0-9]/$verNum/" $PodName.podspec > Temp.podspec
 
 # 删除源文件
-rm $PodName.podspec
+#rm $PodName.podspec
 
 # 修改临时文件名为源文件名
-mv Temp.podspec $PodName.podspec
+#mv Temp.podspec $PodName.podspec
 
 echo "\n🔥修改完毕"
 sed -n '/Mark/ p' $PodName.podspec
