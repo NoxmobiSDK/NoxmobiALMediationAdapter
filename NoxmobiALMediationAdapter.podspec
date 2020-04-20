@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiALMediationAdapter"
-  spec.version      = "6.12.2.2" # Mark
+  spec.version      = "6.12.2.3" # Mark
   spec.summary      = "NoxmobiALMediationAdapter"
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiALMediationAdapter"
   spec.license      = "MIT"
@@ -22,5 +22,7 @@ Pod::Spec.new do |spec|
   spec.dependency "AppLovinMediationUnityAdsAdapter", "3.4.2.1" 
   spec.dependency "AppLovinMediationVungleAdapter", "6.5.3.0"
   spec.dependency "AppLovinMediationMintegralAdapter", "6.1.3.0.0"
+  spec.dependency "AppLovinMediationAdColonyAdapter", "4.1.4.0"
+  spec.dependency "AppLovinMediationTapjoyAdapter", "~> 12.4.2.0"
   spec.dependency "MintegralAdSDK/InterstitialAd", "6.1.3.0"
 end
