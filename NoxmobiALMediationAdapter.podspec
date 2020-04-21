@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.dependency "AppLovinMediationVungleAdapter", "6.5.3.0"
   spec.dependency "AppLovinMediationMintegralAdapter", "6.1.3.0.0"
   spec.dependency "AppLovinMediationAdColonyAdapter", "4.1.4.0"
-  spec.dependency "AppLovinMediationTapjoyAdapter", "~> 12.4.2.0"
+  spec.dependency "AppLovinMediationTapjoyAdapter", "12.4.2.0"
   spec.dependency "MintegralAdSDK/InterstitialAd", "6.1.3.0"
   spec.dependency "AppLovinMediationFyberAdapter", "7.5.4.1"
   spec.dependency "AppLovinMediationInMobiAdapter", "9.0.6.1"
