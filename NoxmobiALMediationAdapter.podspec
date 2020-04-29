@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiALMediationAdapter"
-  spec.version      = "6.12.4.1" # Mark
+  spec.version      = "6.12.4.2" # Mark
   spec.summary      = "NoxmobiALMediationAdapter"
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiALMediationAdapter"
   spec.license      = "MIT"
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/NoxmobiSDK/NoxmobiALMediationAdapter.git", :tag => "#{spec.version}" }
 
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
-  spec.ios.vendored_frameworks = 'AppLovinMediationGoogleAdapter.framework', 'AppLovinMediationFacebookAdapter.framework'
+  spec.ios.vendored_frameworks = 'AppLovinMediationGoogleAdapter.framework', 'AppLovinMediationFacebookAdapter.framework', 'AppLovinMediationAmazonAdapter.framework'
   spec.requires_arc = true
 
   spec.dependency "AppLovinSDK", "6.12.4"
@@ -27,5 +27,5 @@ Pod::Spec.new do |spec|
   spec.dependency "MintegralAdSDK/InterstitialAd", "6.1.3.0"
   spec.dependency "AppLovinMediationFyberAdapter", "7.5.4.1"
   spec.dependency "AppLovinMediationInMobiAdapter", "9.0.7.1"
-  spec.dependency "AppLovinMediationAmazonAdapter", "3.0.0.0.0"
+  spec.dependency "AmazonAd", "3.0.0"
 end
