@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiALMediationAdapter"
-  spec.version      = "6.12.7.0" # Mark
+  spec.version      = "6.12.7.1" # Mark
   spec.summary      = "NoxmobiALMediationAdapter"
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiALMediationAdapter"
   spec.license      = "MIT"
@@ -28,8 +28,10 @@ Pod::Spec.new do |spec|
   spec.dependency "AppLovinMediationMintegralAdapter", "6.2.0.0.0"
   spec.dependency "MintegralAdSDK/InterstitialAd", "6.2.0.0"
   spec.dependency "AppLovinMediationFyberAdapter", "7.5.4.2"
-  #最近更新
   #AppLovinSDK v6.12.7
   #spec.dependency "AppLovinMediationGoogleAdapter, 7.60.0.0" 在自有仓库
 
+  #最近更新
+  spec.dependency "AppLovinMediationSmaatoAdapter", "21.3.3.0"
+  spec.dependency "AppLovinMediationVerizonAdsAdapter", "1.6.0.0"
 end
