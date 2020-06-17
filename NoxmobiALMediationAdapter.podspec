@@ -19,10 +19,10 @@ Pod::Spec.new do |spec|
   #spec.dependency "AppLovinMediationGoogleAdapter, 7.60.0.0" 在自有仓库
   #spec.dependency "AppLovinMediationFacebookAdapter， 5.9.0.0" 在自有仓库
   #spec.dependency "AppLovinMediationAmazonAdapter，3.0.0.0.0" 在自有仓库
+  spec.dependency "AmazonAd", "3.0.0"
   spec.dependency "AppLovinMediationVungleAdapter", "6.5.3.0"
   spec.dependency "AppLovinMediationTapjoyAdapter", "12.4.2.0"
   spec.dependency "AppLovinMediationInMobiAdapter", "9.0.7.1"
-  spec.dependency "AmazonAd", "3.0.0"
 
   #最近更新
   spec.dependency "AppLovinMediationIronSourceAdapter", "6.16.3.0.0"
