@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiALMediationAdapter"
-  spec.version      = "6.12.8.0" # Mark
+  spec.version      = "6.12.8.1" # Mark
   spec.summary      = "NoxmobiALMediationAdapter"
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiALMediationAdapter"
   spec.license      = "MIT"
@@ -16,18 +16,18 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.dependency "AppLovinSDK", "6.12.8"
-  #spec.dependency "AppLovinMediationGoogleAdapter, 7.60.0.0" 在自有仓库
   #spec.dependency "AppLovinMediationFacebookAdapter， 5.9.0.0" 在自有仓库
-  #spec.dependency "AppLovinMediationAmazonAdapter，3.0.0.0.0" 在自有仓库
   spec.dependency "AmazonAd", "3.0.0"
   spec.dependency "AppLovinMediationVungleAdapter", "6.5.3.0"
-  spec.dependency "AppLovinMediationTapjoyAdapter", "12.4.2.0"
   spec.dependency "AppLovinMediationInMobiAdapter", "9.0.7.1"
   spec.dependency "AppLovinMediationIronSourceAdapter", "6.16.3.0.0"
   spec.dependency "AppLovinMediationMintegralAdapter", "6.3.2.0.0"
   spec.dependency "MintegralAdSDK/InterstitialAd", "6.3.2.0"
 
   #最近更新
+  #spec.dependency "AppLovinMediationGoogleAdapter, 7.61.0.0" 在自有仓库
+  #spec.dependency "AppLovinMediationAmazonAdapter，3.0.0.0.1" 在自有仓库
+  spec.dependency "AppLovinMediationTapjoyAdapter", "12.6.0.1"
   spec.dependency "AppLovinMediationUnityAdsAdapter", "3.4.6.0" 
   spec.dependency "AppLovinMediationFyberAdapter", "7.5.6.0"
   spec.dependency "AppLovinMediationAdColonyAdapter", "4.1.5.0"
