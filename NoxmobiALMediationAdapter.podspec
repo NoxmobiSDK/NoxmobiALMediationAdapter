@@ -1,14 +1,14 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiALMediationAdapter"
-  spec.version      = "6.13.1.2" # Mark
+  spec.version      = "6.13.1.3" # Mark
   spec.summary      = "NoxmobiALMediationAdapter"
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiALMediationAdapter"
   spec.license      = "MIT"
   spec.author       = { "Chong" => "zhanglovesan@gmail.com" }
 
   spec.platform     = :ios
-  spec.ios.deployment_target = "9.0"
+  spec.ios.deployment_target = "10.0"
   spec.source       = { :git => "https://github.com/NoxmobiSDK/NoxmobiALMediationAdapter.git", :tag => "#{spec.version}" }
 
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
@@ -26,8 +26,6 @@ Pod::Spec.new do |spec|
   spec.dependency "AppLovinMediationIronSourceAdapter", "6.17.0.0.0"
   spec.dependency "AppLovinMediationMintegralAdapter", "6.3.3.0.1"
   spec.dependency "MintegralAdSDK/InterstitialAd", "6.3.3.0"
-
-  #最近更新
   #spec.dependency "AppLovinMediationGoogleAdapter, 7.61.0.1" 在自有仓库
   #spec.dependency "AppLovinMediationFacebookAdapter， 5.10.0.1" 在自有仓库
   #spec.dependency "AppLovinMediationAmazonAdapter，3.0.0.0.2" 在自有仓库
@@ -35,6 +33,8 @@ Pod::Spec.new do |spec|
   spec.dependency "AppLovinMediationChartboostAdapter", "8.2.0.0"
   spec.dependency "AppLovinMediationTapjoyAdapter", "12.6.1.0"
   spec.dependency "AppLovinMediationFyberAdapter", "7.6.0.0" 
-  spec.dependency "NoxmobiMediationFacebookAdapter", "5.10.0.0"
+
+  #最近更新
+  # spec.dependency "NoxmobiMediationFacebookAdapter", "5.10.1.0"
 
 end
