@@ -36,7 +36,7 @@ Pod::Spec.new do |spec|
   #spec.dependency "AppLovinMediationFacebookAdapter， 5.10.1.0" 在自有仓库
   spec.dependency "AppLovinMediationMintegralAdapter", "6.3.5.0.0"
   spec.dependency "MintegralAdSDK/InterstitialAd", "6.3.5.0"
-  spec.dependency "AppLovinMediationAmazonAdapter，3.1.0.0.0"
+  spec.dependency "AppLovinMediationAmazonAdapter", "3.1.0.0.0"
 
 
 
