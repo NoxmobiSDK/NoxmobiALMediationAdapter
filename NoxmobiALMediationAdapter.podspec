@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiALMediationAdapter"
-  spec.version      = "6.13.3.0" # Mark
+  spec.version      = "6.13.3.1" # Mark
   spec.summary      = "NoxmobiALMediationAdapter"
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiALMediationAdapter"
   spec.license      = "MIT"
@@ -21,21 +21,21 @@ Pod::Spec.new do |spec|
   spec.dependency "AppLovinMediationFyberAdapter", "7.6.2.0" 
   spec.dependency "AppLovinMediationSmaatoAdapter", "21.5.2.0"
   spec.dependency "AppLovinMediationUnityAdsAdapter", "3.4.6.5" 
-
-  #最近更新
   # spec.dependency "AppLovinMediationGoogleAdapter", "7.63.0.0" 在自有仓库
   # spec.dependency "AppLovinMediationFacebookAdapter", "5.10.1.1" 在自有仓库
   spec.dependency "AppLovinMediationIronSourceAdapter", "6.18.0.2.0"
-  spec.dependency "AppLovinMediationMintegralAdapter", "6.3.7.0.0"
-  spec.dependency "MintegralAdSDK/InterstitialAd", "6.3.7.0"
   spec.dependency "AppLovinMediationByteDanceAdapter", "3.1.0.9.0"
   spec.dependency "AppLovinMediationAmazonAdapter", "3.1.0.0.1"
   spec.dependency "AppLovinMediationAdColonyAdapter", "4.3.0.0"
   spec.dependency "AppLovinMediationVerizonAdsAdapter", "1.7.0.0"
   spec.dependency "AppLovinMediationChartboostAdapter", "8.2.1.0"
 
+  #最近更新
 
 
 
+
+  # spec.dependency "AppLovinMediationMintegralAdapter", "6.3.7.0.0" 违规下架
+  # spec.dependency "MintegralAdSDK/InterstitialAd", "6.3.7.0"       违规下架
   # spec.dependency "AppLovinSDK", "6.13.1" NoxmobiMediationAppLovinAdapter之后不再需要在这里依赖
 end
