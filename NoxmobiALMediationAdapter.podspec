@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiALMediationAdapter"
-  spec.version      = "6.14.4.1" # Mark
+  spec.version      = "6.14.4.2" # Mark
   spec.summary      = "NoxmobiALMediationAdapter"
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiALMediationAdapter"
   spec.license      = "MIT"
@@ -21,16 +21,16 @@ Pod::Spec.new do |spec|
   spec.dependency "AppLovinMediationGoogleAdManagerAdapter", "7.65.0.0"
   spec.dependency "AppLovinMediationFyberAdapter", "7.6.4.1" 
   spec.dependency "AppLovinMediationChartboostAdapter", "8.3.1.0"
-  spec.dependency "AppLovinMediationByteDanceAdapter", "3.2.6.2.0"
   spec.dependency "AppLovinMediationTapjoyAdapter", "12.7.0.0"
   spec.dependency "AppLovinMediationUnityAdsAdapter", "3.4.8.3"
   spec.dependency "AppLovinMediationVungleAdapter", "6.8.0.0"
-
-  #最近更新
   spec.dependency "AppLovinMediationAdColonyAdapter", "4.4.0.0"
   spec.dependency "AppLovinMediationSmaatoAdapter", "21.6.2.0"
   spec.dependency "AppLovinMediationVerizonAdsAdapter", "1.8.0.0"
   spec.dependency "AppLovinMediationInMobiAdapter", "9.1.0.0"
+
+  #最近更新
+  spec.dependency "AppLovinMediationByteDanceAdapter", "3.2.6.2.1"
 
   #spec.dependency "AppLovinMediationAmazonAdapter", "3.1.0.0.2" 暂时先去掉，回收不回来
 end
