@@ -4,9 +4,8 @@
 
 PodName="NoxmobiALMediationAdapter"
 
-echo "\n🔥当前版本号："
-# 读取plist中的版本号
-srcVer=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" ./$PodName.framework/Info.plist)
+echo "\n🔥请输入版本号："
+read srcVer
 echo "\n🔥版本号 = " "$srcVer"
 
 echo "\n🔥是否继续执行?[y/n]"
