@@ -11,11 +11,11 @@ sed -n '/Mark/ p' $PodName.podspec
 # ===============验证语法============================
 
 # 语法检查的原命令
-srcCommand="pod spec lint $PodName.podspec --verbose --allow-warnings"
+srcCommand="pod spec lint $PodName.podspec --verbose"
 # push的原命令
 pushCommand="pod trunk push $PodName.podspec"
 # 附加命令参数：--skip-import-validation
-subCommand="--skip-import-validation"
+subCommand="--skip-import-validation --allow-warnings"
 echo "\n🔥是否附加--skip-import-validation参数[y/n]"
 read flag
 if [[ "$flag" == "y" ]]
