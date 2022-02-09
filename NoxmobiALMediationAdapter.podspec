@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiALMediationAdapter"
-  spec.version      = "11.0.0.0" # Mark
+  spec.version      = "11.0.0.1" # Mark
   spec.summary      = "NoxmobiALMediationAdapter"
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiALMediationAdapter"
   spec.license      = "MIT"
@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
   spec.dependency "AppLovinMediationTapjoyAdapter", "12.9.0.0"
   spec.dependency "AppLovinMediationSmaatoAdapter", "21.7.0.1"
   spec.dependency "AppLovinMediationChartboostAdapter", "8.5.0.2"
-  spec.dependency "AppLovinMediationMintegralAdapter", "7.0.4.0.2"
+  spec.dependency "AppLovinMediationMintegralAdapter", "7.1.0.0.0"
   spec.dependency "AppLovinMediationHyprMXAdapter", "6.0.1.0"
 
   #spec.dependency "AppLovinMediationAmazonAdapter", "3.1.0.0.2" Max已不支持
