@@ -18,21 +18,21 @@ Pod::Spec.new do |spec|
 
 
   #最近更新
-  spec.dependency "AppLovinMediationGoogleAdapter", "8.13.0.6"
-  spec.dependency "AppLovinMediationGoogleAdManagerAdapter", "8.13.0.5"
-  spec.dependency "AppLovinMediationFacebookAdapter", "6.9.0.4"
-  spec.dependency "AppLovinMediationIronSourceAdapter", "7.1.14.0.0" 
-  spec.dependency "AppLovinMediationUnityAdsAdapter", "4.0.0.1"
-  spec.dependency "AppLovinMediationVungleAdapter", "6.10.5.2"
-  spec.dependency "AppLovinMediationInMobiAdapter", "10.0.1.1"
-  spec.dependency "AppLovinMediationFyberAdapter", "8.1.2.0"
-  spec.dependency "AppLovinMediationByteDanceAdapter", "4.2.0.4.3"
-  spec.dependency "AppLovinMediationAdColonyAdapter", "4.7.2.0.0"
-  spec.dependency "AppLovinMediationTapjoyAdapter", "12.9.0.0"
-  spec.dependency "AppLovinMediationSmaatoAdapter", "21.7.0.1"
-  spec.dependency "AppLovinMediationChartboostAdapter", "8.5.0.2"
-  spec.dependency "AppLovinMediationMintegralAdapter", "7.1.0.0.0"
-  spec.dependency "AppLovinMediationHyprMXAdapter", "6.0.1.0"
+  spec.dependency "AppLovinMediationGoogleAdapter", "9.14.0.2"
+  spec.dependency "AppLovinMediationGoogleAdManagerAdapter", "9.14.0.2"
+  spec.dependency "AppLovinMediationFacebookAdapter", "6.12.0.1"
+  spec.dependency "AppLovinMediationIronSourceAdapter", "7.2.7.0.1"
+  spec.dependency "AppLovinMediationUnityAdsAdapter", "4.5.0.2"
+  spec.dependency "AppLovinMediationVungleAdapter", "6.12.1.2"
+  spec.dependency "AppLovinMediationInMobiAdapter", "10.1.2.6"
+  spec.dependency "AppLovinMediationFyberAdapter", "8.1.9.0"
+  spec.dependency "AppLovinMediationByteDanceAdapter", "4.8.1.0.2"
+  spec.dependency "AppLovinMediationAdColonyAdapter", "4.9.0.0.3"
+  spec.dependency "AppLovinMediationTapjoyAdapter", "12.11.1.2"
+  spec.dependency "AppLovinMediationSmaatoAdapter", "22.0.1.0"
+  spec.dependency "AppLovinMediationChartboostAdapter", "9.1.0.1"
+  spec.dependency "AppLovinMediationMintegralAdapter", "7.2.9.0.1"
+  spec.dependency "AppLovinMediationHyprMXAdapter", "6.0.3.1"
 
   #spec.dependency "AppLovinMediationAmazonAdapter", "3.1.0.0.2" Max已不支持
   # spec.dependency "AppLovinMediationVerizonAdsAdapter", "1.13.0.0"  Max已不支持
